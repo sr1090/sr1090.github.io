@@ -1,0 +1,361 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+body{
+  margin:0;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size:17px;
+  color:#191919;
+  line-height:1.6;
+}
+
+.topleft{
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  font-size: 18px;
+}
+.topleft a{
+    color: black;
+    text-decoration:none; 
+}
+
+.topleft img{
+	width: 45px;
+	height: 40px;
+}
+
+.showcase{
+ /* background-image:url("images/beachshowcase.jpg");*/
+  background-size:cover;
+  background-position:center;
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  padding:0 20px;
+}
+
+.showcase h1{
+  font-size:50px;
+  line-height:1.2;
+}
+
+.showcase p{
+  font-size:20px;
+}
+
+.showcase .button{
+  text-align: justify;
+  font-size:18px;
+  text-decoration:none;
+  color:#191919;
+  border:#191919 1px solid;
+  padding:10px 20px;
+  border-radius:10px;
+  margin-top:20px;
+  display: inline-flex;
+}
+.showcase .button:after{
+	content:'';
+	display: inline-block;
+}
+
+.showcase .button:hover{
+  background:#191919;
+  color:#fff;
+}
+
+
+/* About me page */
+
+.container{
+	padding: 5%;
+	box-sizing: border-box;
+	min-height: 500px;
+}
+
+.left-col, .right-col{
+	padding: 15px 10px;
+	margin: 5px 5px;
+}
+
+.left-col img{
+	text-align: center;
+	border-radius: 5%;
+}
+
+.left-col p{
+	text-align: center;
+	font-size: 18px; 
+	padding: 0 10px;
+}
+
+.left-col h3{
+	text-align: center; 
+	padding: 0 10px;
+}
+
+.center-col{
+}
+
+.center-col h3{
+	padding: 0 10px;
+}
+
+.center-col p{
+	text-align: justify;
+	font-size: 16px; 
+	padding: 0 7.5px;
+}
+
+.right-col h3{
+	text-align: center;
+}
+
+.right-col ul{
+	font-size: 14px;
+	padding: 0 10px;
+}
+
+.header{
+height: 100px;
+text-align: center;
+padding: 1px;
+}
+
+/* Publications page */
+
+.publications{
+  padding: 0 40px;
+  box-sizing: border-box;
+  min-height: 500px;
+}
+
+.publications h2{
+  font-size: 18px;
+}
+
+.publications ul li{
+    font-size: 14px; 
+}
+
+
+/* research page */
+
+.container_projects{
+  padding: 5%;
+  box-sizing: border-box;
+  min-height: 300px;
+  margin: 10px 10px;
+  /*background-color: blue;*/
+}
+
+.projects-desc div{
+    margin: 10px 10px;
+}
+
+.projects-desc div p{
+    text-align: justify;
+    font-family: 'Catamaran', san-serif;
+    font-size: 16px;
+    font-weight: 200;
+    color: black;
+}
+
+.projects-desc-desc-right {
+    text-align: justify;
+}
+
+
+.projects-desc-image-left{
+    text-align: center;
+}
+
+@media only screen and (min-width: 1000px){
+
+.topleft{
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  font-size: 18px;
+}
+.topleft a{
+    color: black;
+    text-decoration:none; 
+}
+
+.showcase{
+ /* background-image:url("images/beachshowcase.jpg");*/
+  background-size:cover;
+  background-position:center;
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  padding:0 20px;
+}
+
+.showcase h1{
+  font-size:50px;
+  line-height:1.2;
+}
+
+.showcase p{
+  font-size:20px;
+}
+
+.showcase .button{
+  text-align: justify;
+  font-size:18px;
+  text-decoration:none;
+  color:#191919;
+  border:#191919 1px solid;
+  padding:10px 20px;
+  border-radius:10px;
+  margin-top:20px;
+}
+.showcase .button:after{
+	content:'';
+	display: inline-block;
+}
+
+.showcase .button:hover{
+  background:#191919;
+  color:#fff;
+}
+
+
+.topleft img{
+	width: 80px;
+	height: 60px;
+}
+
+.container{
+	padding: 1%;
+	box-sizing: border-box;
+	min-height: 500px;
+}
+
+.left-col, .right-col{
+	width: 30%;
+	float: left;
+	padding: 0 5px;
+}
+
+.left-col img{
+	text-align: center;
+}
+
+.left-col p{
+	text-align: justify;
+	font-size: 18px; 
+	padding: 0 10px;
+}
+
+.left-col h3{
+	text-align: justify; 
+	padding: 0 10px;
+}
+
+.center-col{
+	width: 35%;
+	float: left;
+}
+
+.center-col h3{
+	padding: 0 10px;
+}
+
+.center-col p{
+	text-align: left;
+	font-size: 16px; 
+	padding: 0px;
+}
+
+.right-col ul{
+	font-size: 14px;
+	padding: 10px 10px;
+}
+
+.right-col ul li{
+	text-align: left;
+}
+
+.right-col h3{
+	text-align: left;
+}
+
+.header{
+height: 100px;
+text-align: center;
+padding: 1px;
+}
+
+/* Publications page */ 
+
+.publications{
+  padding: 0 40px;
+  box-sizing: border-box;
+  min-height: 500px;
+}
+
+.publications h2{
+  font-size: 18px;
+}
+
+.publications ul li{
+    font-size: 14px; 
+}
+
+
+/* research */
+
+.container_projects{
+  /*padding: 15%;*/
+  box-sizing: border-box;
+  min-height: 300px;
+  margin: 10px 10px;
+  /*background-color: blue;*/
+}
+
+.projects-desc div{
+    margin: 0px 1px;
+}
+
+.projects-desc div p{
+    text-align: justify;
+    font-family: 'Catamaran', san-serif;
+    font-size: 16px;
+    font-weight: 200;
+    color: black;
+}
+
+.projects-desc-image-left{
+        float: left;
+        width: 45%;
+        display: inline-block;
+        /*background-color: red;*/
+    }
+
+.projects-desc-desc-right{
+        vertical-align: middle;
+        float: left;
+        width: 45%;
+        display: inline-block;
+        /*background-color: green;*/
+    }
+
+/*.footer {
+	clear: both;
+	box-sizing: border-box;
+	text-align: center;
+}*/
+
+}
